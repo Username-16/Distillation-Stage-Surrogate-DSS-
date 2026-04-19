@@ -8,7 +8,7 @@
 
 ---
 
-## 🔬 Motivation
+## Motivation
 
 Industrial distillation is the most energy-intensive separation process in the chemical industry, representing ~40% of process plant operating costs. Rigorous MESH solvers (Mass balance, Equilibrium, Summation, Heat balance) take seconds per simulation — making real-time optimization and control impractical.
 
@@ -22,7 +22,7 @@ This project builds a surrogate model that:
 
 ---
 
-## 📊 Results
+##  Results
 
 All metrics evaluated on a held-out test set (N ≈ 900 samples):
 
@@ -39,7 +39,7 @@ All metrics evaluated on a held-out test set (N ≈ 900 samples):
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Input (9 features)
@@ -63,7 +63,7 @@ Phase 4 — Physics-Informed
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ```bash
 # Clone
@@ -92,7 +92,7 @@ python -m streamlit run app/streamlit_app.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 distillation-stage-surrogate/
@@ -124,7 +124,7 @@ distillation-stage-surrogate/
 
 ---
 
-## 🧪 Input Parameters
+##  Input Parameters
 
 | Parameter | Symbol | Range | Description |
 |---|---|---|---|
@@ -141,7 +141,7 @@ Derived: `α = PaVap / PbVap` (9th model feature, relative volatility)
 
 ---
 
-## 🔭 Future Work
+##  Future Work
 
 - [ ] Extend to multi-component (3+) systems using MESH equations
 - [ ] Add temperature profile prediction alongside composition
@@ -151,21 +151,19 @@ Derived: `α = PaVap / PbVap` (9th model feature, relative volatility)
 
 ---
 
-## 🙏 Credits
+##  Credits
 
 - McCabe-Thiele solver adapted from [trsav/mccabe-thiele](https://github.com/trsav/mccabe-thiele) by Tom Savage — modifications: explicit `nm` (Murphree efficiency) parameter, headless mode returning result dict, stage profile capture.
 - Physics-informed loss design inspired by the PINN literature for chemical process surrogate modeling.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Hamad Almousa**  
 Chemical Engineering, King Saud University  
-Supervisor: Prof. Oualid Hamdaoui
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hamad%20Almousa-blue)](https://linkedin.com/in/hamad-almousa)
-[![GitHub](https://img.shields.io/badge/GitHub-HamadAlmousa-black)](https://github.com/HamadAlmousa)
 
 ---
 
