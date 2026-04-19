@@ -1,0 +1,34 @@
+{
+  "XGBoost": {
+    "r2": 0.9830200000000001,
+    "mae": 1.2419566666666666,
+    "rmse": 2.78253,
+    "speed_ms": 64.27,
+    "monotonicity": null,
+    "vle_residual": null
+  },
+  "MLP": {
+    "r2": 0.98743,
+    "mae": 0.01708,
+    "rmse": 0.02942,
+    "speed_ms": 0.19,
+    "monotonicity": 0.0002313321404813033,
+    "vle_residual": 4.740182876586914
+  },
+  "LSTM": {
+    "r2": 0.98963,
+    "mae": 0.01394,
+    "rmse": 0.02672,
+    "speed_ms": 33.43,
+    "monotonicity": 2.4192067314170966e-05,
+    "vle_residual": 4.8707733154296875
+  },
+  "LSTM+PINN": {
+    "r2": 0.99289,
+    "mae": 0.01237,
+    "rmse": 0.02212,
+    "speed_ms": 32.8,
+    "monotonicity": 1.120586526478007e-05,
+    "vle_residual": 4.20587158203125
+  }
+}

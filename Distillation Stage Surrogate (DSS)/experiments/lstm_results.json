@@ -1,0 +1,54 @@
+{
+  "features": [
+    "PaVap",
+    "PbVap",
+    "alpha",
+    "xd",
+    "xb",
+    "xf",
+    "q",
+    "R_factor",
+    "nm"
+  ],
+  "split": {
+    "train": 4200,
+    "val": 900,
+    "test": 900
+  },
+  "hyperparams": {
+    "epochs": 80,
+    "lr": 0.0003,
+    "batch_size": 64,
+    "hidden": 256,
+    "num_layers": 2,
+    "lambda_phys": 0.15,
+    "tf_ratio": 0.8
+  },
+  "lstm": {
+    "metrics": {
+      "r2": 0.99174,
+      "mae": 0.01186,
+      "rmse": 0.02385
+    },
+    "physics": {
+      "mono": 0.000637,
+      "bc": 0.098276,
+      "vle": 0.265758
+    },
+    "train_time_s": 634.5
+  },
+  "lstm_pinn": {
+    "metrics": {
+      "r2": 0.9943,
+      "mae": 0.01099,
+      "rmse": 0.01981
+    },
+    "physics": {
+      "mono": 0.000288,
+      "bc": 0.095651,
+      "vle": 0.264884
+    },
+    "train_time_s": 590.7,
+    "milestone_M4_passed": true
+  }
+}

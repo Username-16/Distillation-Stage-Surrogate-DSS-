@@ -1,0 +1,44 @@
+{
+  "split": {
+    "train": 4200,
+    "val": 900,
+    "test": 900
+  },
+  "features": [
+    "PaVap",
+    "PbVap",
+    "alpha",
+    "xd",
+    "xb",
+    "xf",
+    "q",
+    "R_factor",
+    "nm"
+  ],
+  "xgboost": {
+    "metrics": {
+      "N_stages": {
+        "r2": 0.99086,
+        "mae": 1.31218,
+        "rmse": 2.22196
+      },
+      "feed_stage": {
+        "r2": 0.98229,
+        "mae": 1.06206,
+        "rmse": 2.22733
+      },
+      "R_actual": {
+        "r2": 0.98226,
+        "mae": 1.26556,
+        "rmse": 3.34504
+      }
+    }
+  },
+  "mlp": {
+    "metrics": {
+      "r2": 0.98985,
+      "mae": 0.01526,
+      "rmse": 0.02644
+    }
+  }
+}
