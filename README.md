@@ -163,7 +163,7 @@ Derived: `α = PaVap / PbVap` (9th model feature, relative volatility)
 **Hamad Almousa**  
 Chemical Engineering, King Saud University  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hamad%20Almousa-blue)](https://www.linkedin.com/in/hamad-almousa-b454b724b)
+[![LinkedIn](https://www.linkedin.com/in/hamad-almousa-b454b724b)](https://www.linkedin.com/in/hamad-almousa-b454b724b)
 
 ---
 
